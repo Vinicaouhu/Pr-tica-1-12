@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<math.h>
+
+int main() {
+  float _a=2;
+  float _b=3;
+  float _c=1;
+  sqrt(_b*_b-4*_a*_c);
+  float _raizquadrada=sqrt(_b*_b-4*_a*_c);
+  float formula1=-_b+_raizquadrada/2*_a;
+  float formula2=_b-_raizquadrada/2*_a;
+ // printf("Square root of %lf is %lf\n",_raizquadrada, sqrt(_raizquadrada));
+  printf("%f\n",formula1);
+  printf("%f\n",formula2);
+  return 0;
+}

@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include<math.h>
+
+int main() {
+  float h=2;//altura, favor ignorar
+  float d=3;//distância
+  float _sin=sin(45);
+  printf("%f\n",_sin*d);//_sin*d=h
+  return 0;
+}

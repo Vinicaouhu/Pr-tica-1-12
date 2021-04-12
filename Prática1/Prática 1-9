@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include<math.h>
+
+int main() {
+  int idadeano=3;//substituir por um valor qualquer
+  int idademeses=1;//substituir por um valor qualquer
+  int ano=idadeano*365;
+  int mes=idademeses*30;
+  int dias=2;//substituir por um valor qualquer
+  int Diatotal=ano+mes+dias;
+  printf("%i\n",Diatotal);
+  return 0;
+}

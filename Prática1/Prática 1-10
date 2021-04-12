@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+  int num=5637;
+  int milhos=num/1000;
+  int cents=num%1000/100;
+  int dezes=(num%1000)%100/10;
+  int unins=((num%1000)%100%10);
+  printf("%i\n", milhos);
+  printf("%i\n", cents);
+  printf("%i\n", dezes);
+  printf("%i\n", unins);
+  return 0;
+}
+

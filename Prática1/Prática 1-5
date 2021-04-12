@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include<math.h>
+
+int main() {
+  int Gyga=2;
+  long int embyte=Gyga*1024;
+  printf("%ld\n",embyte*embyte*embyte);
+  return 0;
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include<math.h>
+
+int main() {
+  int segs=4000;
+  int horas=segs/3600;
+  int mins=segs%3600;
+  int segs2=mins%60;
+  printf("%i\n",horas);
+  printf("%i\n",mins/60);
+  printf("%i\n",segs2);
+  return 0;
+}

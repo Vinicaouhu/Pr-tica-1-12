@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include<math.h>
+
+int main() {
+  double precoinicial=2;
+  double icms=0.17;
+  double Cofins=0.076;
+  double pis=0.0165;
+  double precofinal1=1+icms+Cofins+pis;
+  double precofinal2=precofinal1*precoinicial;
+  printf("%e\n",precofinal2);
+  return 0;
+}
